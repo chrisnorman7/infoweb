@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Loading...summary</title>
+    </head>
+    <body>
+        <h1>InfoWeb</h1>
+        <h2>History</h2>
+        <ul id="history"></ul>
+        <form id="urlForm">
+            <p><label>URL: <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" id="url"></label></p>
+            <p><input type="submit" value="Load"></p>
+        </form>
+        <hr>
+        <p id="status" aria-live="polite" aria-atomic="false">Type a URL</p>
+        <hr>
+        <h2 id="title" aria-live="polite" aria-atomic="false">Page</h2>
+        <div id="page"><p>Nothing loaded yet.</p></div>
+        <script src="/static/main.js?{{ js_modified }}"></script>
+    </body>
+</html>

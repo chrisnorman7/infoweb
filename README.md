@@ -1,2 +1,2 @@
 # infoweb
-A python web proxy to make everything text only
+A Python web proxy to make any site informational
