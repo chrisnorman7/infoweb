@@ -9,6 +9,9 @@ window.onload = () => {
         e.preventDefault()
         loadURL()
     }
+    if (window.location.search) {
+        loadURL(window.location.search.match(/\?url=([^$]+)$/)[1])
+    }
 }
 
 const urlForm = document.querySelector("#urlForm")
